@@ -41,52 +41,52 @@
   }
 }
 
-div#google_translate_element {
-  display: inline;
+// div#google_translate_element {
+//   display: inline;
 
-  div.goog-te-gadget {
-    display: inline;
-    font-size: 0;
-  }
+//   div.goog-te-gadget {
+//     display: inline;
+//     font-size: 0;
+//   }
 
-  div[id=':0.targetLanguage'] {
-    display: inline;
-  }
+//   div[id=':0.targetLanguage'] {
+//     display: inline;
+//   }
 
-  div.goog-te-gadget-simple {
-    border: none;
-    background-color: transparent;
+//   div.goog-te-gadget-simple {
+//     border: none;
+//     background-color: transparent;
 
-    @extend %goog-te-menu;
-  }
+//     @extend %goog-te-menu;
+//   }
 
-  a.goog-logo-link {
-    display: none;
-  }
+//   a.goog-logo-link {
+//     display: none;
+//   }
 
-  .goog-te-gadget-icon {
-    display: none !important;
-    /*background: url("url for the icon") 0 0 no-repeat !important;*/
-  }
+//   .goog-te-gadget-icon {
+//     display: none !important;
+//     /*background: url("url for the icon") 0 0 no-repeat !important;*/
+//   }
 
-  a.goog-te-menu-value {
-    margin: 0;
+//   a.goog-te-menu-value {
+//     margin: 0;
 
-    span:first-child {
-      display: none;
-    }
+//     span:first-child {
+//       display: none;
+//     }
 
-    &:before {
-      content: "\f1ab  \f0d7";
-      font-family: FontAwesome;
-      font-size: initial;
-      color: #fefefe;
-      border: 1px solid #fefefe85;
-      border-radius: 3px;
-      padding: 3px 6px;
-    }
-  }
-}
+//     &:before {
+//       content: "\f1ab  \f0d7";
+//       font-family: FontAwesome;
+//       font-size: initial;
+//       color: #fefefe;
+//       border: 1px solid #fefefe85;
+//       border-radius: 3px;
+//       padding: 3px 6px;
+//     }
+//   }
+// }
 
 .goog-te-menu-frame .goog-te-menu2 {
   max-width: 100%;
@@ -96,12 +96,12 @@ div#google_translate_element {
 }
 
 /* HIDE the google translate toolbar */
-.skiptranslate {
-  display: none !important;
-  border: none;
-  box-shadow: 0 0;
-  -webkit-box-shadow: 0 0;
-}
+// .skiptranslate {
+//   display: none !important;
+//   border: none;
+//   box-shadow: 0 0;
+//   -webkit-box-shadow: 0 0;
+// }
 
 body {
   top: 0px !important;
