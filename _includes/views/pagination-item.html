@@ -7,6 +7,11 @@
 
 {%- include functions.html func='get_article_excerpt' -%}
 {%- assign article_excerpt = return -%}
+
+{%- if post.excerpt %}
+  {%- assign article_excerpt = post.excerpt -%}
+{%- endif %}
+
 {%- assign post_url = post.url | relative_url -%}
 
 {%- assign name = 'excerpt.image_width' -%}
