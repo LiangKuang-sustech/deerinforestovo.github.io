@@ -698,6 +698,26 @@ html {
   @include media-query($on-palm) {
     height: divide($banner-height, 1.5);
   }
+
+  .page-banner-img-source {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(211, 211, 211, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .page-banner-img-source a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .page-banner-img-source a:hover {
+    text-decoration: underline;
+  }
 }
 
 

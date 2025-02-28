@@ -13,6 +13,11 @@
 {%- include functions.html func='get_value' -%}
 {% assign subheading = return %}
 
+{%- include functions.html func='log' level='debug' msg='Get image_source value' -%}
+{% assign name = 'image_source' %}
+{%- include functions.html func='get_value' -%}
+{% assign image_source = return %}
+
 {%- include functions.html func='get_banner' -%}
 
 {%- if has_banner -%}
@@ -124,6 +129,11 @@
           </div>
 
         {%- endif -%}
+        
+        <div class="page-banner-img-source">
+          <a href="{{ image_source | default: page.image_source }}" target="_blank" title="Image Source">Image Source</a>
+        </div>
+
       </div>
     </div>
   </section>
