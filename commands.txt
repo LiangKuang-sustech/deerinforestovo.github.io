@@ -1,0 +1,2 @@
+在本地运行：
+bundle exec jekyll serve
